@@ -94,11 +94,11 @@
 	
 	<distributionManagement>
 	
-	    <releaserepository>
+	    <releaseRepository>
               <id>nexus</id>
               <name>DevopsRelease</name>
               <url>http://54.169.112.247:8081/repository/devops_release/</url>
-            </releaserepository>
+            </releaseRepository>
 
             <snapshotRepository>
               <id>nexus</id>
