@@ -87,11 +87,11 @@
 	
 	<distributionManagement>
 	
-	    <releaseRepository>
+	    <repository>
               <id>nexus</id>
               <name>DevopsRelease</name>
               <url>http://54.169.112.247:8081/repository/devops_release/</url>
-            </releaseRepository>
+            </repository>
 
             <snapshotRepository>
               <id>nexus</id>
