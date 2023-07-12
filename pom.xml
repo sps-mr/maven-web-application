@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		 <sonar.host.url>http://54.255.182.195:9000/</sonar.host.url>
-                <sonar.login>squ_327eda2a4eefb126e83b9cfd025171d953def854</sonar.login>
+		 <sonar.host.url>http://35.154.9.172:9000/</sonar.host.url>
+                <sonar.login>squ_d47838bae2e9a5212d7d962b7e6cbe5b1524e4e5</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -94,16 +94,16 @@
 	
 	<distributionManagement>
 	
-	     <releaserepository>
+	     <repository>
               <id>nexus</id>
-              <name>DevopsRelease</name>
-              <url>http://54.169.112.247:8081/repository/devops_release/</url>
-            </releaserepository>
+              <name>citirelease</name>
+              <url>http://13.232.34.18:8081/repository/citi-release/<url>
+            </repository>
 
             <snapshotRepository>
               <id>nexus</id>
-              <name>DevopsSnapshot</name>
-              <url>http://54.169.112.247:8081/repository/devops_snapshot/</url>
+              <name>citisnapshot</name>
+              <url>http://13.232.34.18:8081/repository/citit-snapshot/</url>
             </snapshotRepository>
 
 	    
