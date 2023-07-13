@@ -97,7 +97,7 @@
 	     <repository>
               <id>nexus</id>
               <name>citirelease</name>
-              <url>http://13.232.34.18:8081/repository/citi-release/<url>
+              <url>http://13.232.34.18:8081/repository/citi-release/</url>
             </repository>
 
             <snapshotRepository>
