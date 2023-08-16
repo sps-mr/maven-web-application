@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		 <sonar.host.url>http://35.154.9.172:9000/</sonar.host.url>
-                <sonar.login>squ_d47838bae2e9a5212d7d962b7e6cbe5b1524e4e5</sonar.login>
+		 <sonar.host.url>http://3.110.148.118:9000/</sonar.host.url>
+                <sonar.login>squ_bc8f2474f15896ae108c9c269e974fb93447c475</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -97,13 +97,13 @@
 	     <repository>
               <id>nexus</id>
               <name>citirelease</name>
-              <url>http://13.232.34.18:8081/repository/citi-release/</url>
+              <url>http://43.205.112.74:8081/repository/citibank-release/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
               <name>citisnapshot</name>
-              <url>http://13.232.34.18:8081/repository/citit-snapshot/</url>
+              <url>http://43.205.112.74:8081/repository/citibank-snapshot/</url>
             </snapshotRepository>
 
 	    
