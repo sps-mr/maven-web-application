@@ -96,7 +96,7 @@
             <snapshotRepository>
               <id>nexus</id>
               <name>citisnapshot</name>
-              <url>http://43.205.112.74:8081/repository/citibanksnapshot/</url>
+              <url>http://3.108.56.82:8081/repository/citisnapshot/</url>
             </snapshotRepository>
 
 	    
