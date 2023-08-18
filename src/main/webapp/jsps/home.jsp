@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
+<title>SriPadaSilks- Home Page</title>
 <link href="images/mithunlogo.jpg" rel="icon">
 </head>
 </head>
 <body>
 <h1 align="center">Welcome to Sri Pads Silks and Sarees,MuddireddyPalli,Hindupur,9959796087 </h1>
-<h1 align="center"> Mithun Technologies- Very Good Training center for DevOps with AWS in Bangalore India and also for Job Assitance Job Support also...Teaching Real Time scenarios</h1>
+<h1 align="center"> Sri Pada Silks is a very good place for handloom and powerloom sarees.All types of sarees are available</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
@@ -34,21 +34,21 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<img src="images/mithunlogo.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		Mithun Technologies, 
-		Martha Halli, Above ICICI Bank, Beside Meghana Foods,
-		Bangalore,
-		+91-9980923226,+91-9900012028
-		devopstrainingblr@gmail.com
+	        Sri Pada Silks and Sarees, 
+		Aravinda Nagar,MR palli
+		Hindupur,
+		+91-9440760967,+91-9959796087
+		sripadasilks@gmail.com
 		<br>
-		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
+		<a href="mailto:sripadasilks@gmail.com">Mail to Sri Pada Silks and Sarees</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2022 by <a href="http://mithuntechnologies.com/">Mithun Technologies,Bengaluru</a> </small></p>
+<p align=center>Sri Pada Silks and Sarees</p>
+<p align=center><small>Copyrights 2022 by <a href="http://sripadasilks.com/">Sri Pada Silks and Sarees,Bengaluru</a> </small></p>
 
 </body>
 </html>
