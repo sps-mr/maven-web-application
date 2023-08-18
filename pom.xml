@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		 <sonar.host.url>http://13.127.217.32:9000/</sonar.host.url>
+		 <sonar.host.url>http://52.66.177.148:9000</sonar.host.url>
                 <sonar.login>squ_bc8f2474f15896ae108c9c269e974fb93447c475</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -96,7 +96,7 @@
             <snapshotRepository>
               <id>nexus</id>
               <name>citisnapshot</name>
-              <url>http://3.108.56.82:8081/repository/citisnapshot/</url>
+              <url>http://3.109.62.211:8081/repository/citisnapshot/</url>
             </snapshotRepository>
 
 	    
