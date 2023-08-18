@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>SriPadaSilks- Home Page</title>
-<link href="images/mithunlogo.jpg" rel="icon">
+<link href="images/sripada.jpg" rel="icon">
 </head>
 </head>
 <body>
