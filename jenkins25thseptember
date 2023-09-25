@@ -1,0 +1,28 @@
+node{
+        echo "The job name is : ${JOB_NAME}"
+
+    def mavenHome=tool name:'Maven3.9.4'
+    
+    properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '', numToKeepStr: '5')), pipelineTriggers([pollSCM('* * * * *')])])
+
+    
+ stage('CheckoutCode'){
+     git branch:'master' , credentialsId: '75e357e8-43dc-4dd3-b704-4a95a82e42ae', url: 'https://github.com/sps-mr/maven-web-application.git'
+ }   
+ stage('build'){
+     
+     sh "${mavenHome}/bin/mvn clean package"
+ }
+ stage('codeanalysis'){
+     sh "${mavenHome}/bin/mvn clean sonar:sonar"
+ }
+    stage('uploadartifacts'){
+        sh "${mavenHome}/bin/mvn clean deploy"
+    }
+    stage('deploytoserver'){
+      sshagent(['9438fa3c-c8d3-486e-8dc0-b2c258d5475c']) {
+          sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@172.31.32.240:/opt/apache-tomcat-9.0.79/webapps"
+    
+}
+    }
+}
