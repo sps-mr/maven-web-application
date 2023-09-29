@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Sri Pads Silks and Sarees,MuddireddyPalli,Hindupur,9959796087 </h1>
-<h1 align="center"> Sri Pada Silks is a very good place for handloom and powerloom sarees.All types of sarees are available updated on sep 26th 2023 22:36</h1>
+<h1 align="center"> Sri Pada Silks is a very good place for handloom and powerloom sarees.All types of sarees are available updated on sep 29th 11:57</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
